@@ -1,0 +1,24 @@
+Breeze Aion DPS Meter
+
+This independent companion is not affiliated with or endorsed by NCSOFT.
+AION 2, game artwork, class and skill icons, item images, and character images
+belong to their respective owners. Images loaded from official game services
+remain subject to those services' terms.
+
+Effect identifiers, names, and icon texture identifiers reference game-data
+tables hosted at https://github.com/taengu/A2Tools-DPS-Meter (revision
+1dbb76ecfe916bfaf789d61927488fe39dd85b79). That repository declares GPL-3.0
+and attributes these tables to game data; no separate permissive data license
+is declared. No implementation code from that project is included.
+
+Network protocol reference: https://github.com/SkeeveAN/Aion-DPS-Meter
+See protocol-reference.txt for its MIT license notice.
+
+Boss catalog, server list, and interactive map attribution and licenses:
+see companion-notices.txt. The included map data is licensed under
+Creative Commons Attribution-NonCommercial 4.0 International.
+
+Npcap is a separate prerequisite and is not distributed in this installer.
+https://npcap.com/
+
+This download does not grant a license to the application's unpublished source.
