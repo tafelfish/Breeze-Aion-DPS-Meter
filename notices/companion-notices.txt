@@ -37,5 +37,6 @@ Game names and artwork remain the property of NCSOFT.
 Changes made for this companion: merged English labels into point records;
 normalized coordinates to a top-left origin; composed and resized image tiles
 into JPEG backgrounds; linked matching bosses to tracker identities.
+Removed incomplete Hidden Cube markers from the bundled map on 2026-10-12.
 Snapshot downloaded 2026-10-08. See data/maps/SOURCE.txt for source details.
 No upstream application source code is included.
