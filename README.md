@@ -4,11 +4,11 @@ A Windows companion for AION 2 with a live encounter overlay, saved encounter lo
 
 This repository hosts installers, release notes, and distribution notices. Application source code is not included.
 
-## Download the preview
+## Download
 
-[Download 0.2.1 Preview](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v0.2.1)
+[Download 1.0.0](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v1.0.0)
 
-Download `Aion2Meter_0.2.1_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are currently named **Aion 2 Meter**. Existing installations retain their settings and encounter history when upgraded.
+Download `Aion2Meter_1.0.0_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are named **Aion 2 Meter**. Existing users can select **Check for updates** in Companion Settings. Upgrades retain settings and encounter history.
 
 Requirements:
 
@@ -17,26 +17,28 @@ Requirements:
 - Microsoft Edge WebView2 Runtime. Setup downloads it if it is missing.
 - Internet access for character profiles, remote images, and GitHub update checks.
 
-The preview installer is unsigned. Windows may display an unknown publisher or SmartScreen warning.
+The installer is unsigned. Windows may display an unknown publisher or SmartScreen warning.
 
 ## Included
 
 - Automatic game connection detection and encounter recording.
-- A customizable overlay with click-through anchoring and a configurable hotkey.
-- Damage, healing, damage taken, skill breakdowns, timelines, and captured buff uptime.
+- A customizable overlay with click-through anchoring, recorded keyboard shortcuts, and game-focused visibility options.
+- Damage, healing, damage taken, skill breakdowns, timelines, CPM/HPM, and captured buff uptime.
+- Optional character power and item level, player privacy controls, and opt-in personal performance comparisons.
 - Encounter history grouped by dungeon run, with newest encounters first.
-- Character profiles and progression suggestions.
-- Interactive maps with saved layer choices and collection markers.
-- Boss timers, favorites, and configurable notifications.
+- Character profiles, equipment details, progression suggestions, and compact character/skills PNG exports.
+- Saved character sheets and speciality descriptions, with recorded selections labelled as combat inferences.
+- Interactive maps with saved layer, gatherable, and pet genus filters and collection markers.
+- Boss timers, favorites, and configurable notifications, including a fixed screen position.
 - Optional Windows startup and update notifications.
 
-Capture coverage depends on available game messages. Missing cast, buff, identity, or profile data can leave statistics incomplete. Game updates may change capture behavior. This is a preview, and measurements are not guaranteed to match the game exactly.
+Capture coverage depends on available game messages. Missing cast, buff, identity, or profile data can leave statistics incomplete. Game updates may change capture behavior. Measurements are not guaranteed to match the game exactly. Speciality selections are inferred from recorded combat and may differ from the current loadout; description values may vary by game version.
 
 ## Updates
 
 The app checks this repository's latest **production release** and the local update folder on startup and every 15 minutes. It offers installation through Settings and notifies you in the overlay. It does not install updates automatically or intentionally interrupt an active encounter.
 
-GitHub prereleases are excluded from automatic checks. Download preview releases manually from this repository. After installing 0.2.1, the next production update must have a higher version to be offered. GitHub update checks do not require a GitHub account.
+GitHub prereleases are excluded from automatic checks. Version 1.0.0 is a production release and is available to earlier versions through the updater. Future production releases with a higher version will be offered in the same way. GitHub update checks do not require a GitHub account.
 
 Installer downloads are checked against the release manifest's size and SHA-256. `latest.json` is update metadata; you only need to run the setup executable.
 
