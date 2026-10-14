@@ -6,9 +6,9 @@ This repository hosts installers, release notes, and distribution notices. Appli
 
 ## Download
 
-[Download 1.0.1](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v1.0.1)
+[Download 1.0.2](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v1.0.2)
 
-Download `Aion2Meter_1.0.1_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are named **Aion 2 Meter**. Existing users can select **Check for updates** in Companion Settings. Upgrades retain settings and encounter history.
+Download `Aion2Meter_1.0.2_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are named **Aion 2 Meter**. Existing users can select **Check for updates** in Companion Settings. Upgrades retain settings and encounter history.
 
 Requirements:
 
@@ -38,7 +38,7 @@ Capture coverage depends on available game messages. Missing cast, buff, identit
 
 The app checks this repository's latest **production release** and the local update folder on startup and every 15 minutes. It offers installation through Settings and notifies you in the overlay. It does not install updates automatically or intentionally interrupt an active encounter.
 
-GitHub prereleases are excluded from automatic checks. Version 1.0.1 is a production release and is available to earlier versions through the updater. Future production releases with a higher version will be offered in the same way. GitHub update checks do not require a GitHub account.
+GitHub prereleases are excluded from automatic checks. Version 1.0.2 is a production release and is available to earlier versions through the updater. Future production releases with a higher version will be offered in the same way. GitHub update checks do not require a GitHub account.
 
 Installer downloads are checked against the release manifest's size and SHA-256. `latest.json` is update metadata; you only need to run the setup executable.
 
