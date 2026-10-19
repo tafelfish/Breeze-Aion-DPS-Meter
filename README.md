@@ -6,9 +6,9 @@ This repository hosts installers, release notes, and distribution notices. Appli
 
 ## Download
 
-[Download 1.0.3](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v1.0.3)
+[Download 1.1.0](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v1.1.0)
 
-Download `Aion2Meter_1.0.3_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are named **Aion 2 Meter**. Existing users can select **Check for updates** in Companion Settings. Upgrades retain settings and encounter history.
+Download `Aion2Meter_1.1.0_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are named **Aion 2 Meter**. Existing users can select **Check for updates** in Companion Settings. Upgrades retain settings and encounter history.
 
 Requirements:
 
@@ -22,7 +22,7 @@ The installer is unsigned. Windows may display an unknown publisher or SmartScre
 ## Included
 
 - Automatic game connection detection and encounter recording.
-- A customizable overlay with click-through anchoring, recorded keyboard shortcuts, and game-focused visibility options.
+- A customizable overlay with click-through anchoring, recorded keyboard shortcuts, game-focused visibility, and optional automatic fades around boss encounters.
 - Damage, healing, damage taken, skill breakdowns, timelines, CPM/HPM, and captured buff uptime.
 - Optional character power and item level, player privacy controls, and opt-in personal performance comparisons.
 - Encounter history grouped by dungeon run, with newest encounters first.
@@ -30,6 +30,8 @@ The installer is unsigned. Windows may display an unknown publisher or SmartScre
 - Saved character sheets and speciality descriptions, with unconfirmed selections marked as unknown.
 - Interactive maps with saved layer, gatherable, and pet genus filters and collection markers.
 - Boss timers, favorites, and configurable notifications, including a fixed screen position.
+- Automatic pet collection tracking, faction completion totals, and a compact nearby pet progress window with completion highlights and chimes.
+- Scheduled reminders for Shugo Festival, Dimensional Invasions and Spacetime Rifts.
 - Optional Windows startup and update notifications.
 
 Capture coverage depends on available game messages. Missing cast, buff, identity, or profile data can leave statistics incomplete. Game updates may change capture behavior. Measurements are not guaranteed to match the game exactly. Speciality selections remain unknown when they cannot be confirmed; description values may vary by game version.
@@ -38,7 +40,7 @@ Capture coverage depends on available game messages. Missing cast, buff, identit
 
 The app checks this repository's latest **production release** and the local update folder on startup and every 15 minutes. It offers installation through Settings and notifies you in the overlay. It does not install updates automatically or intentionally interrupt an active encounter.
 
-GitHub prereleases are excluded from automatic checks. Version 1.0.3 is a production release and is available to earlier versions through the updater. Future production releases with a higher version will be offered in the same way. GitHub update checks do not require a GitHub account.
+GitHub prereleases are excluded from automatic checks. Version 1.1.0 is a production release and is available to earlier versions through the updater. Future production releases with a higher version will be offered in the same way. GitHub update checks do not require a GitHub account.
 
 Installer downloads are checked against the release manifest's size and SHA-256. `latest.json` is update metadata; you only need to run the setup executable.
 
