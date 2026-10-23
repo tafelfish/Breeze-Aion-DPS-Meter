@@ -6,9 +6,9 @@ This repository hosts installers, release notes, and distribution notices. Appli
 
 ## Download
 
-[Download 1.2.0](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v1.2.0)
+[Download 1.3.0](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v1.3.0)
 
-Download `Aion2Meter_1.2.0_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are named **Aion 2 Meter**. Existing users can select **Check for updates** in Companion Settings. Upgrades retain settings and encounter history.
+Download `Aion2Meter_1.3.0_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are named **Aion 2 Meter**. Existing users can select **Check for updates** in Companion Settings. Upgrades retain settings and encounter history.
 
 Requirements:
 
@@ -36,7 +36,15 @@ The installer is unsigned. Windows may display an unknown publisher or SmartScre
 - A Black Cloud Merchant window showing unfinished pet offers, with an optional Unfarmable Pets only filter.
 - Fresh nearby pet distances, a pet tracker visibility shortcut, and completed-pet map markers.
 - Scheduled reminders for Shugo Festival, Dimensional Invasions and Spacetime Rifts.
+- Up to three additional meter windows with independent metrics and appearance.
+- Timed training, encounter comparisons, selectable ranges and encounter images copied to the clipboard.
+- Layout profiles, collapsible editing controls, portable settings and custom notification sounds.
+- An experimental crafting tree with owned-material deductions, planning scenarios and marketplace prices.
+- PvE gear stat priorities and personal desired-stat targets.
+- Experimental restored-healing measurements with explicit unknown events and partial coverage.
 - Optional Windows startup and update notifications.
+
+Restored-healing coverage is still limited; totals may be incomplete. Crafting prices and supported success rates depend on available data.
 
 Capture coverage depends on available game messages. Missing cast, buff, identity, or profile data can leave statistics incomplete. Game updates may change capture behavior. Measurements are not guaranteed to match the game exactly. Speciality selections remain unknown when they cannot be confirmed; description values may vary by game version.
 
@@ -44,7 +52,7 @@ Capture coverage depends on available game messages. Missing cast, buff, identit
 
 The app checks this repository's latest **production release** and the local update folder on startup and every 15 minutes. It offers installation through Settings and notifies you in the overlay. It does not install updates automatically or intentionally interrupt an active encounter.
 
-GitHub prereleases are excluded from automatic checks. Version 1.2.0 is a production release and is available to earlier versions through the updater. Future production releases with a higher version will be offered in the same way. GitHub update checks do not require a GitHub account.
+GitHub prereleases are excluded from automatic checks. Version 1.3.0 is a production release and is available to earlier versions through the updater. Future production releases with a higher version will be offered in the same way. GitHub update checks do not require a GitHub account.
 
 Installer downloads are checked against the release manifest's size and SHA-256. `latest.json` is update metadata; you only need to run the setup executable.
 
