@@ -6,9 +6,9 @@ This repository hosts installers, release notes, and distribution notices. Appli
 
 ## Download
 
-[Download 1.3.2](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v1.3.2)
+[Download 1.3.3](https://github.com/tafelfish/Breeze-Aion-DPS-Meter/releases/tag/v1.3.3)
 
-Download `Aion2Meter_1.3.2_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are named **Aion 2 Meter**. Existing users can select **Check for updates** in Companion Settings. Upgrades retain settings and encounter history.
+Download `Aion2Meter_1.3.3_x64-setup.exe` from the release assets and run it. The installed application and shortcuts are named **Aion 2 Meter**. Existing users can select **Check for updates** in Companion Settings. Upgrades retain settings and encounter history.
 
 Requirements:
 
@@ -54,12 +54,12 @@ Capture coverage depends on available game messages. Missing cast, buff, identit
 
 The app checks this repository's latest **production release** and the local update folder on startup and every 15 minutes. It offers installation through Settings and notifies you in the overlay. It does not install updates automatically or intentionally interrupt an active encounter.
 
-GitHub prereleases are excluded from automatic checks. Version 1.3.2 is a production release and is available to earlier versions through the updater. Future production releases with a higher version will be offered in the same way. GitHub update checks do not require a GitHub account.
+GitHub prereleases are excluded from automatic checks. Version 1.3.3 is a production release and is available to earlier versions through the updater. Future production releases with a higher version will be offered in the same way. GitHub update checks do not require a GitHub account.
 
 Installer downloads are checked against the release manifest's size and SHA-256. `latest.json` is update metadata; you only need to run the setup executable.
 
 ## Data and notices
 
-Encounter logs and settings are stored locally. Live capture reads game connection traffic; it does not capture the screen or read game process memory. Character lookup and image requests use external game services. Update checks contact GitHub. Raw packet recordings are not uploaded by the meter.
+Encounter logs and settings are stored locally. Live combat capture reads game connection traffic and does not read game process memory. Character lookup and image requests use external game services. Update checks contact GitHub. Raw packet recordings are not uploaded by the meter.
 
 This project is independent and is not affiliated with or endorsed by NCSOFT. Game names and artwork belong to their respective owners. Included map data is licensed for noncommercial use. See [distribution notices](notices/distribution-notices.txt) and [map and catalog notices](notices/companion-notices.txt).
